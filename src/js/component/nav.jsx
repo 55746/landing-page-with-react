@@ -1,13 +1,12 @@
 import React from "react";
 
 const Nav = () => {
+	let style1 = { marginLeft: "200px" };
+	let style2 = { marginLeft: "760px" };
 	return (
 		// <div style={{ textDecorationColor: "white" }}>
 		<nav className="navbar navbar-expand-lg navbar-white bg-dark">
-			<a
-				className="navbar-brand text-white"
-				style={{ marginLeft: "200px" }}
-				href="#">
+			<a className="navbar-brand text-white" style={style1} href="#">
 				Navbar
 			</a>
 			<button
@@ -23,7 +22,7 @@ const Nav = () => {
 			<div
 				className="collapse navbar-collapse"
 				id="navbarNav"
-				style={{ marginLeft: "760px" }}>
+				style={style2}>
 				<ul className="navbar-nav">
 					<li className="nav-item active">
 						<a className="nav-link text-white" href="#">

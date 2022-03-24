@@ -1,20 +1,22 @@
 import React from "react";
 
 const Jumbo = () => {
+	let style1 = {
+		borderRadius: "10px",
+		background: "lightGray",
+		marginTop: "0px",
+		marginLeft: "200px",
+		marginRight: "200px",
+	};
+	let style2 = { marginLeft: "50px" };
+	let style3 = { marginLeft: "50px" };
+	let style4 = { margin: "0px 50px 65px 50px" };
 	return (
-		<div
-			className="jumbotron"
-			style={{
-				borderRadius: "10px",
-				background: "lightGray",
-				marginTop: "0px",
-				marginLeft: "200px",
-				marginRight: "200px",
-			}}>
-			<h1 className="display-4" style={{ marginLeft: "50px" }}>
+		<div className="jumbotron" style={style1}>
+			<h1 className="display-4" style={style2}>
 				<strong>A Warm Welcome!</strong>
 			</h1>
-			<p className="lead" style={{ marginLeft: "50px" }}>
+			<p className="lead" style={style3}>
 				TLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
 				sed elit aliquam dolor rutrum facilisis id eu nibh. Morbi
 				posuere magna ac dui hendrerit ullamcorper.
@@ -24,7 +26,7 @@ const Jumbo = () => {
 					className="btn btn-primary btn-lg"
 					href="#"
 					role="button"
-					style={{ margin: "0px 50px 65px 50px" }}>
+					style={style4}>
 					Call to action!
 				</a>
 			</p>
