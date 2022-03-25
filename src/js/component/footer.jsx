@@ -4,14 +4,15 @@ const Footer = () => {
 	let style1 = {
 		position: "inline-block",
 		bottom: "0",
-		height: "70px",
+		height: "78px",
 		width: "100%",
 		color: "black",
 	};
 	let style2 = {
-		position: "fixed",
+		// position: "",
+		paddingTop: "50px",
 		marginLeft: "636px",
-		bottom: "10px",
+		// bottom: "10px",
 		// textDecorationColor: "whitesmoke",
 		// textAlign: "center",
 		// position: "absolute",

@@ -4,11 +4,11 @@ const Card = () => {
 	let style1 = {
 		// display: "fixed",
 		// maxWidth: "700px",
-		// justifyContent: "center",
+		justifyContent: "center",
 		// alignItems: "center",
-		width: "16.75rem",
+		width: "17rem",
 		// alignItems: "10px",
-		margin: "0px 10px 0px 5px",
+		margin: "0px 5px 0px 5px",
 		// display: "inline-block",
 	};
 

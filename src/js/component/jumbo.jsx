@@ -4,7 +4,7 @@ const Jumbo = () => {
 	let style1 = {
 		borderRadius: "10px",
 		background: "lightGray",
-		marginTop: "0px",
+		marginTop: "3px",
 		marginLeft: "200px",
 		marginRight: "200px",
 	};
