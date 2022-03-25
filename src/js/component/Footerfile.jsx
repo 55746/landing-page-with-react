@@ -2,7 +2,8 @@ import React from "react";
 
 const Footer = (props) => {
 	let style1 = {
-		position: "inline-block",
+		textAlign: "center",
+		position: "block",
 		bottom: "0",
 		height: "78px",
 		width: "100%",
@@ -11,7 +12,7 @@ const Footer = (props) => {
 	let style2 = {
 		// position: "",
 		paddingTop: "50px",
-		marginLeft: "636px",
+		// marginLeft: "636px",
 		// bottom: "10px",
 		// textDecorationColor: "whitesmoke",
 		// textAlign: "center",
