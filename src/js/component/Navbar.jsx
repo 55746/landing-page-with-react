@@ -5,7 +5,7 @@ const Nav = () => {
 	let style2 = { position: "relative", marginLeft: "51%" };
 	return (
 		// <div style={{ textDecorationColor: "white" }}>
-		<nav className="w-100 navbar navbar-expand-lg navbar-white bg-dark">
+		<nav className="d-flex w-100 navbar navbar-expand-lg navbar-white bg-dark">
 			<a className="navbar-brand text-white" style={style1} href="#">
 				Navbar
 			</a>
