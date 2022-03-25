@@ -1,11 +1,11 @@
 import React from "react";
 
 const Nav = () => {
-	let style1 = { marginLeft: "200px" };
-	let style2 = { marginLeft: "760px" };
+	let style1 = { position: "relative", marginLeft: "13%" };
+	let style2 = { position: "relative", marginLeft: "51%" };
 	return (
 		// <div style={{ textDecorationColor: "white" }}>
-		<nav className="navbar navbar-expand-lg navbar-white bg-dark">
+		<nav className="w-100 navbar navbar-expand-lg navbar-white bg-dark">
 			<a className="navbar-brand text-white" style={style1} href="#">
 				Navbar
 			</a>
