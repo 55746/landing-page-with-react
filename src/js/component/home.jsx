@@ -45,7 +45,7 @@ const Home = () => {
 					title="Landing Page with React"
 				/>
 			</div>
-			<Footer />
+			<Footer description="copywrite @ your website 2022" />
 		</div>
 	);
 };

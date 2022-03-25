@@ -22,7 +22,7 @@ const Footer = (props) => {
 		<div>
 			<div className="footer bg-dark" style={style1}>
 				<div className=" text-white" style={style2}>
-					copywrite @ your website 2022
+					{props.description}
 				</div>
 			</div>
 		</div>
