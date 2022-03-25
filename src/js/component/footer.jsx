@@ -1,6 +1,6 @@
 import React from "react";
 
-const Footer = () => {
+const Footer = (props) => {
 	let style1 = {
 		position: "inline-block",
 		bottom: "0",

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Jumbo = () => {
+const Jumbo = (props) => {
 	let style1 = {
 		borderRadius: "10px",
 		background: "lightGray",
@@ -17,9 +17,7 @@ const Jumbo = () => {
 				<strong>A Warm Welcome!</strong>
 			</h1>
 			<p className="lead" style={style3}>
-				TLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-				sed elit aliquam dolor rutrum facilisis id eu nibh. Morbi
-				posuere magna ac dui hendrerit ullamcorper.
+				{props.description}
 			</p>
 			<p className="lead">
 				<a
