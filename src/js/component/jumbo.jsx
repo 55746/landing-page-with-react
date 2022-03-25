@@ -5,8 +5,8 @@ const Jumbo = (props) => {
 		borderRadius: "10px",
 		background: "lightGray",
 		marginTop: "3px",
-		marginLeft: "200px",
-		marginRight: "200px",
+		marginLeft: "80px",
+		marginRight: "80px",
 	};
 	let style2 = { marginLeft: "50px" };
 	let style3 = { marginLeft: "50px" };

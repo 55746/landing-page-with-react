@@ -3,10 +3,9 @@ import React from "react";
 const Card = (props) => {
 	let style1 = {
 		justifyContent: "center",
-		width: "16.88rem",
+		width: "17.1rem",
 		margin: "0px 5px 0px 5px",
-		// display: "fixed",
-		// maxWidth: "700px",
+		paddingBottom: "50px", // maxWidth: "700px",
 		// alignItems: "center",
 		// alignItems: "10px",
 		// display: "inline-block",

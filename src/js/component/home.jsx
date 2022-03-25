@@ -15,35 +15,37 @@ const Home = () => {
 	return (
 		<div>
 			<Nav />
-			<Jumbo description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." />
-			<div className="card-group" style={obj}>
-				<Card
-					imageUrl="https://picsum.photos/200/200"
-					alt="Random Image"
-					description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-					title="Landing Page with React"
-				/>
-				;{" "}
-				<Card
-					imageUrl="https://picsum.photos/200/200?random=1"
-					alt="Random Image"
-					description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-					title="Landing Page with React"
-				/>
-				;{" "}
-				<Card
-					imageUrl="https://picsum.photos/200/200?random=2"
-					alt="Random Image"
-					description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-					title="Landing Page with React"
-				/>
-				;{" "}
-				<Card
-					imageUrl="https://picsum.photos/200/200?random=3"
-					alt="Random Image"
-					description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-					title="Landing Page with React"
-				/>
+			<div className="container">
+				<Jumbo description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." />
+				<div className="card-group" style={obj}>
+					<Card
+						imageUrl="https://picsum.photos/200/200"
+						alt="Random Image"
+						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+						title="Landing Page with React"
+					/>
+					;{" "}
+					<Card
+						imageUrl="https://picsum.photos/200/200?random=1"
+						alt="Random Image"
+						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+						title="Landing Page with React"
+					/>
+					;{" "}
+					<Card
+						imageUrl="https://picsum.photos/200/200?random=2"
+						alt="Random Image"
+						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+						title="Landing Page with React"
+					/>
+					;{" "}
+					<Card
+						imageUrl="https://picsum.photos/200/200?random=3"
+						alt="Random Image"
+						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+						title="Landing Page with React"
+					/>
+				</div>
 			</div>
 			<Footer description="copywrite @ your website 2022" />
 		</div>
