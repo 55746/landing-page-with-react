@@ -1,8 +1,8 @@
 import React from "react";
 
 const Nav = () => {
-	let style1 = { position: "relative" };
-	let style2 = { position: "relative" };
+	let style1 = { position: "relative", marginLeft: "13%" };
+	let style2 = { position: "relative", marginLeft: "51%" };
 	return (
 		// <div style={{ textDecorationColor: "white" }}>
 		<nav className="d-flex w-100 navbar navbar-expand-lg navbar-white bg-dark">
